@@ -10,21 +10,21 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
-    <!-- <script src="js/index.js"></script> -->
+    <script src="../js/index.js"></script>
 </head>
 
 <body>
 
-    <header>
+<header>
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row no-gutters">
+        <div class="row no-gutters">
                 <div class="col-lg-4 col-md-4">
                     <img src="../img/img1.jpg">
                 </div>
 
-                <div class="col-lg-8 col-md-8">
+            <div class="col-lg-8 col-md-8">
 
                     <div class="d-flex flex-column">
                         <div class="p-5 bg-dark text-white">
@@ -43,16 +43,20 @@
 
 
                         <div class="d-flex flex-row text-center text-white align-items-start">
-                            <div class="p-4 bg-success font-div">
+                            <div class="p-4 bg-success font-div" data-toggle="collapse" 
+                            data-target="#home">
                                 <i class="fa fa-home fa-2x d-block"></i> Home
                             </div>
-                            <div class="p-4 bg-danger font-div">
+                            <div class="p-4 bg-danger font-div" data-toggle="collapse"
+                            data-target="#Resume">
                                 <i class="fa fa-graduation-cap fa-2x d-block"></i> Resume
                             </div>
-                            <div class="p-4 bg-primary font-div">
+                            <div class="p-4 bg-primary font-div" data-toggle="collapse"
+                            data-target="#Work">
                                 <i class="fa fa-folder fa-2x d-block"></i> Work
                             </div>
-                            <div class="p-4 bg-warning font-div">
+                            <div class="p-4 bg-warning font-div" data-toggle="collapse"
+                            data-target="#Contact">
                                 <i class="fa fa-envelope fa-2x d-block"></i> Contact
 
                             </div>
@@ -60,28 +64,158 @@
                     </div>
 
 
-                </div>
-
-
             </div>
 
 
         </div>
 
-    
 
-    </header>
+    </div>   
+
+</header>
+
+<div class="container">
+
+    <div class="collapse" id="home">
+        <div class="p-5 text-white bg-success">
+            <h2>My Resume</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Sit id maiores officiis corrupti! Corrupti perferendis officia quam voluptatibus veritatis totam incidunt alias, officiis optio velit et nisi eaque necessitatibus voluptates.</p>
+        </div>
+
+        <div class="card card-body">
+            <h2> My Skills</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quos nisi alias similique, aperiam magnam ipsum doloribus quisquam, pariatur velit, 
+                quam saepe vel eum voluptates dicta explicabo non modi ex!</p>
+
+            <h4>HTML </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"> </div>
+            </div> 
+            <h4>CSS </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"> </div>
+            </div> 
+            <h4>Bootstrap </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"> </div>
+            </div> 
+            <h4>Javascript </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"> </div>
+            </div> 
+            <h4>JQuery </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"> </div>
+            </div> 
+            <h4>Node </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%"> </div>
+            </div> 
+            <h4>Mongo </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"> </div>
+            </div> 
+            <h4>React </h4>   
+            <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 5%"> </div>
+            </div> 
+        </div>
+
+    </div>
+     
+    <div class="collapse" id="Resume">
+        <div class="p-5 text-white bg-danger">
+            <h2>My Resume</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Sit id maiores officiis corrupti! Corrupti perferendis officia quam voluptatibus veritatis totam incidunt alias, officiis optio velit et nisi eaque necessitatibus voluptates.</p>
+        </div class="card card-body">
+            <h2>Where have I worked?</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero error ea explicabo, 
+                excepturi quae consequuntur quia, autem fugit necessitatibus placeat voluptatum qui, rerum nihil laborum ex eveniet. Quaerat, optio.</p>
+
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                             WEB DEVELOPER </div>
+                        <div class="card-body">
+                            <p class="mb-5">Lorem ipsum dolo sit amet, consectetur adipisicing elit.
+                                Quod, nostrum.</p>
+                                
+                                <p class="bg-dark text-white p-2"> As fron end Developer</p>
+                                <p class="bg-dark text-white p-2"> As fron end Developer</p>
+                        </div>
+                        <div class="card-footer"> Date: 2015-2016</div>
+                    </div>
+
+                   
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                             WEB DEVELOPER </div>
+                        <div class="card-body">
+                            <p class="mb-5">Lorem ipsum dolo sit amet, consectetur adipisicing elit.
+                                Quod, nostrum.</p>
+                                
+                                <p class="bg-dark text-white p-2"> As fron end Developer</p>
+                                <p class="bg-dark text-white p-2"> As fron end Developer</p>
+                        </div>
+                        <div class="card-footer"> Date: 2015-2016</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                             WEB DEVELOPER </div>
+                        <div class="card-body">
+                            <p class="mb-5">Lorem ipsum dolo sit amet, consectetur adipisicing elit.
+                                Quod, nostrum.</p>
+                                
+                                <p class="bg-dark text-white p-2"> As fron end Developer</p>
+                                <p class="bg-dark text-white p-2"> As fron end Developer</p>
+                        </div>
+                        <div class="card-footer"> Date: 2015-2016</div>
+                    </div>
+
+                  
+
+                </div>
+
+        <div>
+
+
+        </div>
+
+    </div>
+    <div class="collapse" id="Work">
+        <div class="p-5 text-white bg-primary">
+            <h2>Experiance</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Sit id maiores officiis corrupti! Corrupti perferendis officia quam voluptatibus veritatis totam incidunt alias, officiis optio velit et nisi eaque necessitatibus voluptates.</p>
+        </div>
+
+    </div>
+    <div class="collapse" id="Contact">
+        <div class="p-5 text-white bg-warning">
+            <h2>Contact me!</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Sit id maiores officiis corrupti! Corrupti perferendis officia quam voluptatibus veritatis totam incidunt alias, officiis optio velit et nisi eaque necessitatibus voluptates.</p>
+        </div>
+
+    </div>
+
+
+
+</div>
 
 
 
 
+<div class="container">
+    <footer class="p-5 bg-dark text-center">
+        <button class="btn"> <i class="fa fa-download fa-2x"></i>Download</button>
 
-<footer class="p-5 bg-dark text-center">
-    <button class="btn"> <i class="fa fa-download fa-2x d-block"></i>Download</button>
 
-
-</footer>
-
+    </footer>
+</div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
